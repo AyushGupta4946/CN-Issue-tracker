@@ -1,28 +1,27 @@
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ 
   margin-top: 50px;
+  background:linear-gradient(135deg, cyan, blue);
+    padding: 15px 50px;
 }
 
-form label {
-  font-weight: bold;
-  margin-bottom: 10px;
+form label{
+  font-size: 1.2rem;
 }
 
 form input,
 form textarea {
-  width: 300px;
+  width: 100%;
   padding: 5px;
   border-radius: 5px;
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
+  border: 1px solid #777272;
+  margin-top: 10px ;
+  margin-bottom: 10px ;
 }
 
 form button {
   padding: 10px 20px;
-  background-color: #28a745;
+  background-color: rgb(41, 41, 197);
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -30,28 +29,23 @@ form button {
 }
 
 form button:hover {
-  background-color: #1d9238;
+  background:linear-gradient(135deg , cyan, blue);
 }
 
 
 /* CSS for Nav Bar */
-header {
-  background: linear-gradient(180deg, #815b5b, #8f4040);
-  color: #fff;
-  padding: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+header{
+  background: linear-gradient(145deg, cyan, blue);
+  padding: 20px  50px;
+  height: 80px;
+  
 }
 
-nav {
+
+.nav-left{
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  height: 40px; /* Reduce the height */
-}
-
-.nav-left {
-  display: flex;
-  align-items: center;
 }
 
 .nav-left h1 {
@@ -59,49 +53,18 @@ nav {
   margin-right: 20px;
 }
 
-nav a {
+.nav-left a {
   color: #fff;
   text-decoration: none;
   margin-right: 10px;
   padding: 5px;
+  font-size: 1.2rem;
 }
 
-nav a:hover {
-  background-color: #555;
+.nav-left a:hover {
+  color: #3d3535;
+  transition: 0.5s ;
 }
 
-nav a:hover#home-button { 
-  background-color: #888;
-}
 
-/* CSS for Footer */
-footer {
-  background: linear-gradient(180deg, #815b5b, #8f4040);
-  color: #fff;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
 
-footer nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .nav-left {
-  text-align: center;
-}
-
-footer h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 24px;
-  margin: 0;
-}
-
-footer h3 {
-  font-size: 14px;
-  margin: 5px 0 0;
-}
